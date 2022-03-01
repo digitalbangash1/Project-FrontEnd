@@ -6,4 +6,21 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.Engineer1{
+  object-fit: contain;
+  object-fit: cover;
+  background-size: cover;
+  border: 1px solid rgb(50, 47, 241);
+}
+.sec-div h1{
+  text-align:center;
+  color: rgb(255, 47, 47);
+}
+.sec-div p{
+  margin-top: 1em;
+  text-align:left;
+  color: blue;
+  margin-left: auto;
+  text-size-adjust: 30dip;
+}
 
