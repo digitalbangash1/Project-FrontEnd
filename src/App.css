@@ -74,7 +74,7 @@ figcaption{
   margin: 2em 2em ;
   text-align: center;
   font-size: medium;
-  
+  margin-right: 2%;
   
 }
 
@@ -85,7 +85,7 @@ figcaption{
 
 @media screen and (max-width: 768px) {
   figcaption{
-  position: inherit; 
+  position: sticky; 
   bottom: inherit;
   margin: .25rem 0px;
   font-size: inherit;
