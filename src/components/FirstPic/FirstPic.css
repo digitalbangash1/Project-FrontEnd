@@ -1,0 +1,7 @@
+.Engineer1{
+    object-fit: contain;
+    object-fit: cover;
+    background-size: cover;
+    border: 1px solid rgb(18, 5, 206);
+    width: 100%;
+}

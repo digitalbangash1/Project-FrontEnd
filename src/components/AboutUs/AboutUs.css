@@ -1,0 +1,43 @@
+.AboutUsDiv{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.PicOfUs{
+    object-fit: contain;
+    object-fit: cover;
+    background-size: cover;
+    border: 1px solid rgb(176, 175, 230);
+    width: 100%;
+}
+
+figcaption{
+    left: 70%;
+    top: 50%;
+    position: absolute;
+    color: aliceblue;
+    background-color: rgb(85, 85, 212);
+    margin: 2em 2em ;
+    text-align: center;
+    font-size: medium;
+    margin-right: 2%;
+}
+
+.position-relative{
+    position: absolute;
+    box-sizing: border-box;
+    margin-bottom: 5cm;
+}
+
+@media screen and (max-width: 768px) {
+    figcaption{
+    position: sticky; 
+    bottom: inherit;
+    margin: .25rem 0px;
+    font-size: inherit;
+    color: inherit;
+    color: aliceblue;
+    }
+}
