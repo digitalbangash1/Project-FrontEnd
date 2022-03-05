@@ -4,6 +4,7 @@ import { Container } from "react-bootstrap";
 import './App.css';
 import Engineer1 from './pictures/Engineer1.png'
 import PicOfUS from './pictures/PicOfUs.png'
+import engCover from './pictures/engCover.png'
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
             </figure>
         </Container>
 
+        
     </div>
   );
 }
