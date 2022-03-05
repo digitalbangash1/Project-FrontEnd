@@ -23,7 +23,7 @@ figcaption{
 }
 
 .position-relative{
-    position: fixed;
+    position: absolute;
     box-sizing: content-box;
     margin-bottom: 5cm;
 }

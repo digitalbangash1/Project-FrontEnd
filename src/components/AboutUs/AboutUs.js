@@ -15,7 +15,7 @@ class AboutUs extends Component {
                 <p>We are five software engineers students from DTU
                 (Denmark Technical University) who are dedicated to 
                 helping you learning the courses through the expereiences
-                we have had through out the different subjects.</p>
+                we have had through out the different subjects. </p>
                 </figcaption>
             </figure>
         </Container>
