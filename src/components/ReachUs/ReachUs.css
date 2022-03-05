@@ -1,29 +1,43 @@
-
-.ReachUs{
+.Reachdiv{
+    background-color: rgb(255, 255, 255);
     width: 100%;
+    height: max-content;
 }
+
 .engCover{
     background-size: cover;
     border: 1px solid rgb(18, 5, 206);
     width: 100%;
-    margin-top: 19cm;
+    margin-top: 24cm;
     
 }
 
-figcaption{
-    
-    top: 50%;
-    position: absolute;
-    color: aliceblue;
-    background-color: rgb(85, 85, 212);
-    margin: 2em 2em ;
-    text-align: center;
-    font-size: medium;
-    margin-right: 2%;
-}
-
-.position-relative{
+.position-relative2{
     position: absolute;
     box-sizing: content-box;
-    margin-bottom: 5cm;
+    margin-bottom: 1cm;
+}
+
+.Reach{
+    width: auto;
+    position: absolute;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 30%;
+    background-color: rgba(0, 0, 128, 0);
+    left: 5%;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .Reach{
+    position: static; 
+    bottom: inherit;
+    margin: .25rem 0px;
+    font-size: inherit;
+    color: rgb(2, 0, 0);
+    }
 }

@@ -5,9 +5,8 @@ import  "./AboutUs.css";
 
 class AboutUs extends Component {
     render(){
-        return(
-        <div className="AboutUs">
-            <Container>
+        return <div className="AboutUs" id="AboutUsID">
+            <div>
             <figure class='position-relative'>
                 < img className="PicOfUs" src={PicOfUS} alt =""></img>
                 <figcaption> 
@@ -18,9 +17,9 @@ class AboutUs extends Component {
                 we have had through out the different subjects. </p>
                 </figcaption>
             </figure>
-        </Container>
         </div>
-        );
+        </div>
+        
     }
 }
 

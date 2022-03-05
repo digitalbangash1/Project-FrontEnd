@@ -5,18 +5,15 @@ import { Container } from "react-bootstrap";
 
 class ReachUs extends Component {
     render(){
-        return(
-        <div className="ReachUs">
-        
-            <figure class='position-relative'>
+        return <div className="Reachdiv">
+            <figure class='position-relative2'>
                 < img className="engCover" src={engCover} alt =""></img>
-                <figcaption> 
-                <h2>About us:</h2>
+                <figcaption className="Reach"> 
+                <h2>Do you want to reach us?</h2>
+                <p>Just one call away: +45 1234 5678 </p>
                 </figcaption>
             </figure>
-        
-            </div> 
-        );
+            </div>
     }
 }
 

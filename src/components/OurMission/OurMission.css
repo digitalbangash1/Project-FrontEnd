@@ -7,6 +7,7 @@
     color: rgb(0, 0, 0);
     background-color: antiquewhite;
     text-size-adjust: 30em;
+    font-size: large;
     
 }
 
@@ -16,4 +17,5 @@
     margin-left: 1em;
     margin-right: 1em;
     font-weight: bold;
+    
 }
