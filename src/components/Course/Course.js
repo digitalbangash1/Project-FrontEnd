@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import"./ReachUs.css"
+import"./Course.css"
 import { Container } from "react-bootstrap";
 
 class Course extends Component {
@@ -10,6 +10,9 @@ class Course extends Component {
                 <h2>Courses</h2>
                 <h3>All</h3>
                 <p>Advanced Programming </p>
+                <p>Front End Web Technology </p>
+                <p>Back End development</p>
+                <p>Distriobuted anda parallel Systems</p>
                 </figcaption>
             </figure>
             </div>
