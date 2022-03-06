@@ -20,12 +20,12 @@
 .nav-menu{
     display: grid;
     grid-template-columns: repeat(5,auto);
-    grid-gap: 20px;
+    grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 80vw;
+    width: 75vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 10rem;
 }
 .nav-links{
     color: white;
