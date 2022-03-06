@@ -1,0 +1,37 @@
+.Coursediv{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: max-content;
+}
+
+
+
+.PR{
+    position: absolute;
+    box-sizing: content-box;
+    margin-bottom: 1cm;
+}
+
+.Course1{
+    width: auto;
+    position: absolute;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 30%;
+    background-color: rgba(0, 0, 128, 0);
+    left: 5%;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .Course{
+    position: static; 
+    bottom: inherit;
+    margin: .25rem 0px;
+    font-size: inherit;
+    color: rgb(26, 19, 19);
+    }
+}
