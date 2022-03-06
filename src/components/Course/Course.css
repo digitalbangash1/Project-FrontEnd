@@ -22,7 +22,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .Course{
+    .Course1{
     position: static; 
     bottom: inherit;
     margin: .30rem 0px;
