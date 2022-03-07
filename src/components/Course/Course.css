@@ -1,32 +1,20 @@
-.Coursediv{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: max-content;
-}
-
 .PR{
-    position: absolute;
-    box-sizing: content-box;
-    margin-bottom: 1cm;
+    position: static;
+    box-sizing: 1s0px;
+    margin-bottom: 1em;
 }
 
 .Course1{
     width: auto;
-    position: absolute;
+    position: static;
+    top: 20px;
     text-align: center;
     font-size: x-large;
-    margin-top: 40%;
-    background-color: rgba(0, 0, 128, 0);
-    left: 7%;
+    margin-top: 65em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    left: 1%;
 
 }
 
-@media screen and (max-width: 768px) {
-    .Course1{
-    position: static; 
-    bottom: inherit;
-    margin: .30rem 0px;
-    font-size: inherit;
-    color: rgb(26, 19, 19);
-    }
-}
+
