@@ -10,7 +10,7 @@ class AboutUs extends Component {
             <figure class='position-relative'>
                 < img className="PicOfUs" src={PicOfUS} alt =""></img>
                 <figcaption> 
-                <h2>About us:</h2>
+                <h2>About us :</h2>
                 <p>We are five software engineers students from DTU
                 (Denmark Technical University) who are dedicated to 
                 helping you learning the courses through the expereiences

@@ -5,6 +5,7 @@ import FirstPic from './components/FirstPic/FirstPic';
 import OurMission from './components/OurMission/OurMission';
 import AboutUs from './components/AboutUs/AboutUs';
 import ReachUs from './components/ReachUs/ReachUs';
+import Course from './components/Course/Course';
 import { Container } from 'react-bootstrap';
 
 function App() {
@@ -41,6 +42,14 @@ function App() {
       <ReachUs/>
       </div>
     </div>
+
+
+    <div>
+      <div>
+      <Course/>
+      </div>
+    </div>
+
 
 </div>
   );

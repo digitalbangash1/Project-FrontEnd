@@ -4,7 +4,7 @@ import { Container } from "react-bootstrap";
 
 class Course extends Component {
     render(){
-        return <div className="Coursediv">
+        return <div>
             <figure class='PR'>
                 <figcaption className="Course1"> 
                 <h2>Courses</h2>
@@ -12,7 +12,7 @@ class Course extends Component {
                 <p>Advanced Programming </p>
                 <p>Front End Web Technology </p>
                 <p>Back End development</p>
-                <p>Distriobuted anda parallel Systems</p>
+                <p>Distributed anda parallel Systems</p>
                 </figcaption>
             </figure>
             </div>
