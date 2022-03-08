@@ -1,5 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Sidebar from '../Sidebar/Sidebar';
 
 export default function CourseDetails() {
-  return <h2>Course details</h2>;
+ 
+
+
+  return (
+        <div>
+            
+          <Sidebar/>
+        </div>
+    );
 }
