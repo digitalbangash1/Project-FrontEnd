@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { Button } from '../Button';
 import {MenuItems} from "./MenuItems"
 import './Navbar.css'
+import { Link, animateScroll as scroll } from "react-scroll";
+import AboutUsID from '../AboutUs/AboutUs'
 
 
 class Navbar extends Component{
@@ -21,10 +23,10 @@ class Navbar extends Component{
                 <ul className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
                     {MenuItems.map((item, index)=>{
                         return(
+                            
                         <li key = {index}>
                             <a className={item.cName} href={item.url}>
                             {item.title}    
-                                
                                 </a>
                         </li>)
                     })}
