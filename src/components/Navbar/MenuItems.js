@@ -8,8 +8,14 @@
      {
         title:'About Us',
         url: '#',
-        cName: 'nav-links'
+        cName: 'nav-links',  
         
+    },
+    {
+        title:'About Us',
+        url: '',
+        cName: 'nav-links',
+    
     },
     {
         title:'Courses',
@@ -29,4 +35,4 @@
         cName: 'nav-links-mobile'
         
     }
- ]
+]

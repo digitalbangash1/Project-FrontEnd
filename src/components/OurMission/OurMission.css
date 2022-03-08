@@ -1,0 +1,21 @@
+.our-div p{
+    margin-top: 0em;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1em;
+    text-align:center;
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite;
+    text-size-adjust: 30em;
+    font-size: large;
+    
+}
+
+.our-div h2{
+    text-align:center;
+    margin-top: 0em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-weight: bold;
+    
+}
