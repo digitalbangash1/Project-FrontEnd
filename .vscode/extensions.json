@@ -1,5 +1,6 @@
 {
-    "recommendations": [
-        "k--kato.intellij-idea-keybindings"
-    ]
+  "recommendations": [
+    "k--kato.intellij-idea-keybindings",
+    "ms-dotnettools.csharp"
+  ]
 }
