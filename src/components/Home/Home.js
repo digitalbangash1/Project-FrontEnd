@@ -5,6 +5,7 @@ import OurMission from '../OurMission/OurMission'
 import ReachUs from '../ReachUs/ReachUs'
 
 export default function Home() {
+<<<<<<< HEAD
   return <div>
     
 
@@ -34,4 +35,14 @@ export default function Home() {
     </div>
 
   </div>;
+=======
+  return( <div>
+<FirstPic/>
+<OurMission/>
+<AboutUs/>
+<ReachUs/>
+</div>
+  )
+  
+>>>>>>> d035f3ab6aede8e31798fa4878ff8a73206868fe
 }
