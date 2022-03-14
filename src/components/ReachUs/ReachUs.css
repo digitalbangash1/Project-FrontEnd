@@ -2,6 +2,8 @@
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: max-content;
+    display:block;
+
 }
 
 .engCover{
@@ -26,6 +28,7 @@
     margin-top: 30%;
     background-color: rgba(0, 0, 128, 0);
     left: 5%;
+    display:engCover;
 
 }
 
