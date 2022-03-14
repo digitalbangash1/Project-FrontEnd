@@ -1,34 +1,27 @@
-.Reachdiv{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: max-content;
-    display:block;
 
-}
 
 .engCover{
     background-size: cover;
     border: 1px solid rgb(18, 5, 206);
     width: 100%;
-    margin-top: 24cm;
-    
 }
 
 .position-relative2{
-    position: absolute;
+    position: relative;
     box-sizing: content-box;
     margin-bottom: 1cm;
 }
 
 .Reach{
-    width: auto;
+    left: 1%;
+    top: 50%;
     position: absolute;
     text-align: center;
     font-size: x-large;
-    margin-top: 30%;
-    background-color: rgba(0, 0, 128, 0);
+    background-color: rgba(2, 2, 31, 0);
     left: 5%;
     display:engCover;
+    bottom: 1cm;
 
 }
 
@@ -37,10 +30,9 @@
 
 @media screen and (max-width: 768px) {
     .Reach{
-    position: static; 
+    text-align: center;
+    font-size: small; 
     bottom: inherit;
     margin: .25rem 0px;
-    font-size: inherit;
-    color: rgb(2, 0, 0);
     }
 }
