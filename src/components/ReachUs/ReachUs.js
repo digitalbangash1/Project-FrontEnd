@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import engCover from "./engCover.png"
 import"./ReachUs.css"
-import { Container } from "react-bootstrap";
+
 
 class ReachUs extends Component {
     render(){

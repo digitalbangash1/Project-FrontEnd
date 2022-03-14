@@ -6,7 +6,7 @@ import { AiFillAccountBook } from "react-icons/ai";
 
 
 const StylishSidebar = forwardRef((props, ref) => {
-  const { 
+  const {
     backgroundImage = 'https://eugeville.files.wordpress.com/2015/03/mount.jpg',
     useImageAsHeader = false,
     header = {
@@ -21,15 +21,16 @@ const StylishSidebar = forwardRef((props, ref) => {
       align: 'center'
     },
     menuItems = [
-      {name: 'Intro', to: '/item1', icon: <a href="https://icons8.com/icon/35090/video">Video icon by Icons8</a>, subMenuItems: [] },
-      {name: 'Articles', to: '/item2', icon: 'https://eugeville.files.wordpress.com/2015/03/plane.png', 
+      { name: 'Intro', to: '/item1', icon: <a href="https://icons8.com/icon/35090/video">Video icon by Icons8</a>, subMenuItems: [] },
+      {
+        name: 'Articles', to: '/item2', icon: 'https://eugeville.files.wordpress.com/2015/03/plane.png',
         subMenuItems: [
-          { name: 'Sub1', to: '/sub1'},
-          { name: 'Sub2', to: '/sub2'}, 
-          { name: 'Sub3', to: '/sub3'}]
+          { name: 'Sub1', to: '/sub1' },
+          { name: 'Sub2', to: '/sub2' },
+          { name: 'Sub3', to: '/sub3' }]
       },
-      {name: 'Videos', to: '/item1', icon: 'https://eugeville.files.wordpress.com/2015/03/home.png', subMenuItems: [] },
-      {name: 'Links', to: '/item1', icon: 'https://eugeville.files.wordpress.com/2015/03/home.png', subMenuItems: [] },
+      { name: 'Videos', to: '/item1', icon: 'https://eugeville.files.wordpress.com/2015/03/home.png', subMenuItems: [] },
+      { name: 'Links', to: '/item1', icon: 'https://eugeville.files.wordpress.com/2015/03/home.png', subMenuItems: [] },
     ],
     fonts = {
       header: 'Poppins',
@@ -57,7 +58,7 @@ const StylishSidebar = forwardRef((props, ref) => {
     onSubMenuItemClick = null
   } = props;
 
-  
+
   // State
   const [selected, setSelectedMenuItem] = useState(menuItems[0] ? menuItems[0].name : null);
   const [isSidebarOpen, setSidebarState] = useState(isOpen);
@@ -65,7 +66,7 @@ const StylishSidebar = forwardRef((props, ref) => {
   const [subMenusStates, setSubmenus] = useState({});
   const [currentPalette, setPalette] = useState({})
 
-  
+
   // Effects
 
   // Set color palette (preset or custom)
@@ -146,8 +147,8 @@ const StylishSidebar = forwardRef((props, ref) => {
 
     const subMenusCopy = JSON.parse(JSON.stringify(subMenusStates));
 
-    if (subMenusStates.hasOwnProperty(index)) { 
-      subMenusCopy[index]['isOpen'] = !subMenusStates[index]['isOpen'] 
+    if (subMenusStates.hasOwnProperty(index)) {
+      subMenusCopy[index]['isOpen'] = !subMenusStates[index]['isOpen']
       setSubmenus(subMenusCopy)
     }
     else {
@@ -221,7 +222,7 @@ const StylishSidebar = forwardRef((props, ref) => {
         {/* Display submenus if they exist  */}
         <AnimatePresence>
           {hasSubmenus && isOpen && (
-            <motion.nav 
+            <motion.nav
               initial={{ opacity: 0, y: -15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.35 }}
@@ -248,19 +249,19 @@ const StylishSidebar = forwardRef((props, ref) => {
         `}
       />
 
-      <SidebarContainer 
+      <SidebarContainer
         backgroundImage={backgroundImage}
-        isSidebarOpen={isSidebarOpen} 
+        isSidebarOpen={isSidebarOpen}
         colorPalette={currentPalette}
         widthCollapsed={widthCollapsed}
         widthExpanded={widthExpanded}
         minWidth={minWidth}
         maxWidth={maxWidth}
         ref={ref}
-        style={{...className}}
+        style={{ ...className }}
       >
         {useImageAsHeader ? (
-          <SidebarHeaderImageContainer 
+          <SidebarHeaderImageContainer
             height={isSidebarOpen ? headerImage.heightExpanded : headerImage.heightCollapsed}
             align={isSidebarOpen ? headerImage.align : 'center'}
             hasHeaderClick={!!onHeaderClick}
@@ -269,7 +270,7 @@ const StylishSidebar = forwardRef((props, ref) => {
             <SidebarHeaderImage src={isSidebarOpen ? headerImage.urlExpanded : headerImage.urlCollapsed} />
           </SidebarHeaderImageContainer>
         ) : (
-          <SidebarHeaderText 
+          <SidebarHeaderText
             font={fonts.header}
             hasHeaderClick={!!onHeaderClick}
             onClick={() => handleHeaderClick()}
@@ -277,13 +278,13 @@ const StylishSidebar = forwardRef((props, ref) => {
             {headerState}
           </SidebarHeaderText>
         )}
-          <MenuItemContainer>{menuItemsJSX}</MenuItemContainer>
+        <MenuItemContainer>{menuItemsJSX}</MenuItemContainer>
 
-          {showToggler && (
-            <TogglerContainer onClick={() => handleToggler()}>
-              <Toggler />
-            </TogglerContainer>
-          )}
+        {showToggler && (
+          <TogglerContainer onClick={() => handleToggler()}>
+            <Toggler />
+          </TogglerContainer>
+        )}
       </SidebarContainer>
     </>
   )
@@ -332,7 +333,7 @@ const Colors = {
     fontColorSelected: '#ffffff',
     dividerColor: '#303030',
     selectedBackgroundCollapsedMode: 'light'
-  },  
+  },
   ashes: {
     bgColor1: '#e6eaf0CC',
     bgColor2: '#B8C6DBCC',
