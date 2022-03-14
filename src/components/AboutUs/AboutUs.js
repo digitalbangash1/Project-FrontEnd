@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PicOfUS from "./PicOfUs.png"
-import { Container } from "react-bootstrap";
+
 import  "./AboutUs.css";
 
 class AboutUs extends Component {
