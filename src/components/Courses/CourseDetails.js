@@ -25,7 +25,9 @@ export default function CourseDetails() {
 
       {course && (
         <div>
-          <div>{course.name}</div>
+            
+          <Sidebar/>
+          <div>Welcome to {course.name}</div>
           <div>{course.description}</div>
         </div>
       )}

@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 
+=======
+import { Button } from '../Buttons/Button';
+>>>>>>> origin/master
 import { MenuItems } from "./MenuItems"
 import './Navbar.css'
 

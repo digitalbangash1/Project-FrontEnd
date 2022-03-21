@@ -17,31 +17,28 @@
 
 
 .position-relative{
-    position: absolute;
+    position: relative;
     box-sizing: content-box;
-    margin-bottom: 5cm;
+
 }
 
 figcaption{
-    left: 70%;
+    left: 30%;
     top: 50%;
     position: absolute;
     color: rgb(255, 255, 255);
     background-color: rgb(92, 92, 223);
-    margin: 2em 2em ;
+    
     text-align: center;
     font-size: medium;
-    margin-left: 2%;
+    
 
 }
 
 @media screen and (max-width: 768px) {
     figcaption{
-    position: static; 
-    bottom: inherit;
-    margin: .25rem 0px;
-    font-size: inherit;
-    color: white;
+    text-align: center;
+    font-size: small;
     }
 }
 
