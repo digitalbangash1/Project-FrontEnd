@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PicOfUS from "./PicOfUs.png"
+
 import  "./AboutUs.css";
 
 class AboutUs extends Component {
