@@ -1,0 +1,137 @@
+[33mcommit a64f6d56fbc5bcf81b0bf400b457f837db6435f0[m[33m ([m[1;36mHEAD -> [m[1;32mSidebar2[m[33m)[m
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Mon Mar 21 13:08:45 2022 +0100
+
+    sidebar created
+    functionality implemented
+    routing
+
+[33mcommit 462649ef623f7fb954ca27866c926cb34217c600[m
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Mon Mar 14 22:03:25 2022 +0100
+
+    Sidebar2 created
+
+[33mcommit 29987dcbc6428dd87c37aee39dc52ef9d1d7588a[m
+Merge: b2b9753 d035f3a
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Mon Mar 14 11:34:30 2022 +0100
+
+    Merge branch 'master' of https://github.com/digitalbangash1/project1
+
+[33mcommit b2b9753dc0e65a3f3845bb1caaab006895fab553[m
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Mon Mar 14 11:31:57 2022 +0100
+
+    Button moved
+
+[33mcommit d035f3ab6aede8e31798fa4878ff8a73206868fe[m[33m ([m[1;31morigin/BotNav_TA[m[33m)[m
+Merge: 0fef210 f15ae0e
+Author: salim963 <70900247+salim963@users.noreply.github.com>
+Date:   Thu Mar 10 14:54:48 2022 +0100
+
+    Merge branch 'master' of https://github.com/digitalbangash1/Project-FrontEnd
+
+[33mcommit 0fef2103e01cefccd4a4b4ded6fcb72a6d2b2af6[m
+Author: salim963 <70900247+salim963@users.noreply.github.com>
+Date:   Thu Mar 10 14:54:44 2022 +0100
+
+    Home
+
+[33mcommit f15ae0efe84fb08ff51a5d7bd37ccc560878a7de[m
+Merge: e49eb05 5696edc
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Tue Mar 8 11:32:06 2022 +0100
+
+    Merge branch 'master' of https://github.com/digitalbangash1/project1
+
+[33mcommit e49eb05f00af848e294fe2c9ce56c471171a77d5[m
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Tue Mar 8 11:30:29 2022 +0100
+
+    react icons
+
+[33mcommit 5696edc95dc7c345f0b17ad355461e8ded43e444[m
+Merge: 2cca190 e4140f9
+Author: salim963 <70900247+salim963@users.noreply.github.com>
+Date:   Tue Mar 8 11:19:15 2022 +0100
+
+    Merge branch 'Salim-Branch'
+
+[33mcommit e4140f9a5c4edb8259f359533b604203e9191987[m[33m ([m[1;31morigin/Salim-Branch[m[33m)[m
+Author: salim963 <70900247+salim963@users.noreply.github.com>
+Date:   Tue Mar 8 11:08:32 2022 +0100
+
+    cleaned
+
+[33mcommit 658660ef2e4f4473833d42ec48849980e5212e50[m
+Author: salim963 <70900247+salim963@users.noreply.github.com>
+Date:   Tue Mar 8 10:51:32 2022 +0100
+
+    -
+
+[33mcommit 2cca19066cbc52fc6e503b6ceaf57edf8faa7642[m[33m ([m[1;32mSidebar.js[m[33m)[m
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Sun Mar 6 21:13:38 2022 +0100
+
+    Navigation and course content working now
+
+[33mcommit f6bcef6f7b880d32c43e21b788e547c10897579a[m
+Author: salim963 <salimdk97@gmail.com>
+Date:   Sat Mar 5 22:25:18 2022 +0100
+
+    --
+
+[33mcommit 3a36663a84a5142fa940c915b0c24b592969642f[m
+Author: salim963 <salimdk97@gmail.com>
+Date:   Sat Mar 5 16:29:33 2022 +0100
+
+    little fix
+
+[33mcommit 00eebb3a009c13d71c5f5f44b813406636f45715[m
+Author: salim963 <salimdk97@gmail.com>
+Date:   Sat Mar 5 15:54:30 2022 +0100
+
+    files and code order
+
+[33mcommit 728639e6dc1b1d57750c1eea7883c12fa7e45581[m
+Author: salim963 <salimdk97@gmail.com>
+Date:   Sat Mar 5 12:33:12 2022 +0100
+
+    --
+
+[33mcommit 0d7f3aaa52c882bcbd29b00d20619b3ce817a8c8[m
+Author: salim963 <70900247+salim963@users.noreply.github.com>
+Date:   Fri Mar 4 08:40:05 2022 +0100
+
+    small bug fix
+
+[33mcommit 4694c17900618938032b884a8dd98a0140f2a13d[m
+Author: salim963 <salimdk97@gmail.com>
+Date:   Thu Mar 3 23:52:26 2022 +0100
+
+    (aboutUs)
+
+[33mcommit a63f87d2b072c67d302a6435cba4e76b37d838ed[m[33m ([m[1;31morigin/Course-page-layout-ALI-D[m[33m)[m
+Author: salim963 <salimdk97@gmail.com>
+Date:   Tue Mar 1 22:47:04 2022 +0100
+
+    first pic
+
+[33mcommit 8b140eec694499364b31faa8f6318cb5707d04a9[m[33m ([m[1;31morigin/BotNav_Thomas[m[33m, [m[1;31morigin/AliJawesh[m[33m)[m
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Tue Mar 1 10:05:03 2022 +0100
+
+    created components
+
+[33mcommit 8a803ac274f88e232ddde25caaf305aaefdf4548[m
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Mon Feb 28 23:55:22 2022 +0100
+
+    Top Navigation bar created
+
+[33mcommit 040cbd085d3551c3dd31f91ba0a69d2725f09997[m
+Author: digitalbangash1 <digitalbangash1@hotmail.com>
+Date:   Mon Feb 28 20:55:26 2022 +0100
+
+    Initialize project using Create React App
