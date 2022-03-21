@@ -14,10 +14,9 @@ function App() {
           <Navbar />
         
       <Routes>
-        <Route path="courses" element={<CourseList />} />
-        <Route path="discription" element={<Description />} />
-        <Route path="testing" element={<Testing />} />
+        <Route path="/courses" element={<CourseList />} />
         <Route path="/courses/:courseId" element={<CourseDetails />} />
+        <Route path="testing" element={<Testing />} />
         <Route path="/" element={<Home />} />
       </Routes>
     </div>

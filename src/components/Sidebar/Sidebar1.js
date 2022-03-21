@@ -8,15 +8,17 @@ import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
 
 const Nav = styled.div`
-  background: #15171c;
+  background: rgb(110,94,254);
   height: 80px;
   display: flex;
+  width: fit-content;
+  
   justify-content: flex-start;
   align-items: center;
 `;
 
 const NavIcon = styled(Link)`
-  margin-left: 2rem;
+  margin-left: 0rem;
   font-size: 2rem;
   height: 80px;
   display: flex;
@@ -26,10 +28,12 @@ const NavIcon = styled(Link)`
 
 const SidebarNav = styled.nav`
   background: #15171c;
+  overflow: auto;
   width: 250px;
-  height: 100vh;
+  height: fit-content;
   display: flex;
-  justify-content: center;
+  margin-top: 80px;
+  justify-content: right;
   position: fixed;
   top: 0;
   left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
