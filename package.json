@@ -16,16 +16,10 @@
     "react-pro-sidebar": "^0.7.1",
     "react-responsive-sidebar": "^0.1.16",
     "react-router-dom": "^6.2.2",
-<<<<<<< HEAD
     "react-scripts": "^5.0.0",
     "react-scroll": "^1.8.6",
     "router-dom": "^2.2.9",
     "styled-components": "^5.0.0",
-=======
-    "react-scripts": "5.0.0",
-    "react-scroll": "^1.8.6",
-    "router-dom": "^2.2.9",
->>>>>>> origin/master
     "stylish-sidebar": "^1.1.2",
     "web-vitals": "^2.1.4"
   },
