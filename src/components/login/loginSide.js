@@ -43,17 +43,17 @@ export default function Loginside(){
         <h2>Please login </h2>
 
         <Form.Group  controlId="sign-in-email" />
-            <Form.Control  type="email"size="sm"
+            <Form.Control  type="email"size="lg"
             placeholder="Email address" autoComplete="username"
             value={email} onChange={e=>setEmail(e.target.value)}/>
 
-        <Form.Group className ="mb-3" controlId="sign-in-pass"  />
-            <Form.Control type="password"size="sm"
+        <Form.Group className ="mb-3 " controlId="sign-in-pass"  />
+            <Form.Control type="password"size="lg"
             placeholder="password" autoComplete="current-password"
             value={password} onChange={e=>setPassword(e.target.value)}/>
         
         <Form.Group  controlId ="remember-me" 
-        className="d-flex justify-content-center" />
+        className="d-flex justify-content-center"/>
         <Form.Check label= "Remember me "  className="FormG"/>
 
         <Button  className="text-center" variant ="variant" size="sm"

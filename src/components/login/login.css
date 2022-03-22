@@ -23,16 +23,16 @@
     background-color: rgb(119, 118, 209);
     width: 50%;
     margin-left: 25%;
-    
-    
-    
+
+
+
     
 }
 
 
 .con{
     place-items: center center ;
-    
+    width: 100%;
 }
 
 .form-Control:focus{
