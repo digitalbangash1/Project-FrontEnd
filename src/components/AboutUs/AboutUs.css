@@ -1,6 +1,7 @@
 .AboutUs{
     height: fit-content;
     width: fit-content;
+    
 }
 
 
@@ -17,9 +18,9 @@
 
 
 .position-relative{
-    position: absolute;
+    position: relative;
     box-sizing: content-box;
-    margin-bottom: 5cm;
+    margin-bottom: 1cm;
 }
 
 figcaption{
@@ -35,7 +36,7 @@ figcaption{
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1070px) {
     figcaption{
     position: static; 
     bottom: inherit;

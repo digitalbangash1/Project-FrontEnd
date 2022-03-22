@@ -1,43 +1,47 @@
 .Reachdiv{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: max-content;
+    height: fit-content;
+    width: fit-content;
 }
 
 .engCover{
+    object-fit: contain;
+    object-fit: cover;
     background-size: cover;
-    border: 1px solid rgb(18, 5, 206);
+    border: 1px solid rgb(176, 175, 230);
     width: 100%;
-    margin-top: 24cm;
-    
 }
+    
+
 
 .position-relative2{
-    position: absolute;
+    position: relative;
     box-sizing: content-box;
     margin-bottom: 1cm;
 }
 
 .Reach{
-    width: auto;
+    left: 1%;
+    top: 60%;
     position: absolute;
+    color: rgb(255, 255, 255);
+    margin: 2em 2em ;
     text-align: center;
-    font-size: x-large;
-    margin-top: 30%;
-    background-color: rgba(0, 0, 128, 0);
-    left: 5%;
+    font-size: large;
+    margin-left: 2%;
+    background-color: rgba(255, 255, 255, 0);
 
 }
 
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 920px) {
     .Reach{
     position: static; 
-    bottom: inherit;
+    bottom: initial;
+    font-size: medium;
     margin: .25rem 0px;
-    font-size: inherit;
     color: rgb(2, 0, 0);
+    background-color: rgb(92, 92, 223);
     }
 }
