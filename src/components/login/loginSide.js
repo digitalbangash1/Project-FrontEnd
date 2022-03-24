@@ -24,7 +24,7 @@ export default function Loginside() {
             authContext.setAuth({ token, email });
         } else {
             alert('wrong details batata')
-        }
+        }    
     }
 
 
@@ -42,7 +42,7 @@ export default function Loginside() {
 
                     <h2>Please login </h2>
 
-                    <Form.Group controlId="sign-in-email" />
+                    <Form.Group controlId="signInEmail" />
                     <Form.Control type="email" size="lg"
                         placeholder="Email address" autoComplete="username"
                         value={email} onChange={e => setEmail(e.target.value)} />
@@ -52,11 +52,11 @@ export default function Loginside() {
                         placeholder="password" autoComplete="current-password"
                         value={password} onChange={e => setPassword(e.target.value)} />
 
-                    <Form.Group controlId="remember-me"
-                        className="d-flex justify-content-center" />
-                    <Form.Check label="Remember me " className="FormG" />
+                    <Form.Group controlId="rememberMe"/>
+                    <Form.Check label="Remember me "  className="d-flex justify-content-center"
+                    type="checkbox"  id="rememberMe"/>
 
-                    <Button className="text-center" variant="variant" size="sm"
+                    <Button className="text-center mt-4" variant="variant" size="sm"
                         onClick={login}>
                         Log in </Button>
                     <p>&copy;Engineer Academy 2022 </p>
