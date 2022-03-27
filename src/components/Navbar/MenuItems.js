@@ -25,6 +25,11 @@
         
     },
     {
+        title:'Login',
+        url: '/login',
+        cName: 'nav-links'        
+    },
+    {
         title:'Testing',
         url: '/testing',
         cName: 'nav-links'        
