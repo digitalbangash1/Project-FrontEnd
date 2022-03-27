@@ -25,7 +25,7 @@ export default function CourseDetails() {
 
       {course && (
         <div>
-          <div>{course.name}</div>
+          <div>Welcome to  {course.name}</div>
           <div>{course.description}</div>
         </div>
       )}
