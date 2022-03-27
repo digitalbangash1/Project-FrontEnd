@@ -1,0 +1,56 @@
+.login{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+}
+
+
+.login h1 {
+    font-size: large;
+    text-align: center;
+} 
+
+.login-admin-pic{
+    width: 102px;
+    height: 102px;
+    margin-bottom: 2ex;
+    margin-top: 2cm;
+}
+.form {
+    text-align: center;
+    place-items: center center;
+    width: min-content;
+    background-color: rgb(119, 118, 209);
+    width: 50%;
+    margin-left: 25%;
+
+
+
+    
+}
+
+
+.con{
+    place-items: center center ;
+    width: 100%;
+}
+
+.form-Control:focus{
+    z-index: 5;
+}
+.FormG{
+    margin-bottom: 1em;
+}
+
+.form button{
+    width: 20ex;
+    height: 4ex;
+    background-color: rgb(67, 67, 143);
+    color: aliceblue;
+    margin-bottom: 2cm;
+}
+.form rem{
+    align-items: center;
+    text-align: center;
+}
+
