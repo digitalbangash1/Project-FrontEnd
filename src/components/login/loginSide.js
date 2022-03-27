@@ -6,7 +6,7 @@ import { Component, useContext } from "react";
 import { useEffect, useState } from 'react';
 import AuthProvider, { AuthContext } from "./AuthContext";
 import Button from "react-bootstrap/Button";
-import loginPic from "./loginPic.png";
+import loginPic1 from "./loginPic1.png";
 
 export default function Loginside() {
     const [email, setEmail] = useState("");
@@ -38,7 +38,7 @@ export default function Loginside() {
                 <Form className="form">
 
                     < img className="login-admin-pic"
-                        src={loginPic} alt="Bootstrap 5"></img>
+                        src={loginPic1} alt="Bootstrap 5"></img>
 
                     <h2>Please login </h2>
 
@@ -67,3 +67,4 @@ export default function Loginside() {
         </div>
     );
 }
+//--
