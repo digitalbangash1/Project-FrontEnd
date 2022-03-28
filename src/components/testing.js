@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button1";
-import updateCoursesAd from "../pages/updateCoursesAd";
+import UpdateCoursesAd from "../pages/updateCoursesAd";
 
 
 
@@ -13,7 +13,7 @@ export default function Testing() {
             <Button/>
         </div>
         <div>
-            <updateCoursesAd/>
+            <UpdateCoursesAd/>
         </div>
         </div>
 
