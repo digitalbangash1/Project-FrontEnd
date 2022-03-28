@@ -17,9 +17,6 @@ class Button1 extends Component {
                         color={"primary"}
                         variant={"outlined"}
                         component={Link} to = "/coursesTemplate"
-
-
-
                 >
                     Create courses
                 </Button>

@@ -24,7 +24,7 @@ export default function Header() {
                         </button>
                     </div>
                 ) : (
-                    "You need to login"
+                    "login please"
                 )}
             </div>
         </nav>
