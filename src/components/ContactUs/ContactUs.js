@@ -9,7 +9,7 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'service_7jkaecf', e.target, '3v-MlhA1NCWoz2z6c')
+    emailjs.sendForm('gmail', 'template_drk0a8l', e.target, '3v-MlhA1NCWoz2z6c')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
