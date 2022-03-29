@@ -9,14 +9,13 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_drk0a8l', e.target, '3v-MlhA1NCWoz2z6c')
+    emailjs.sendForm('service_7jkaecf','template_drk0a8l', e.target, '3v-MlhA1NCWoz2z6c')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
       e.target.reset();
-
   }
 
   return (
