@@ -1,8 +1,7 @@
-.footer{
-  padding: 1rem;
-  background-color: rgb(44, 63, 233);
+.Foot_text{
+  padding-top: 10px;
+  padding-bottom: 2px;
+  text-align: center;
   position: static;
-  bottom: 0;
-  left: 0;
   width: 100%;
 }
