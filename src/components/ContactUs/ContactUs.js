@@ -20,6 +20,10 @@ export default function ContactUs() {
 
   return (
     <div>
+      <div>
+        <h3 id="header">Do you have any suggestions?</h3>
+        <div id="text">We are ready to work on your suggestions of any complexity, whether it’s about the courses stated above or you want us to list new courses.</div>
+      </div>
       <div className="container">
         <form onSubmit={sendEmail}>
           <div className="row pt-5 mx-auto">
