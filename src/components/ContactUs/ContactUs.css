@@ -1,5 +1,6 @@
 #ContactForm{
     background-color:#f6f8f7;
+    align-items:center;
 }
 
 #text{
@@ -12,6 +13,11 @@ mark.red{
     }
 
 #MsgBtn{
-
-
+text-align: center;
+background-color: #2a47a9;
+color: white;
+border: black 1px;
+display: block;
+margin: auto;
+margin-bottom: 1rem;
 }

@@ -36,7 +36,7 @@ export default function ContactUs() {
             <div className="col-8 form-group pt-2 mx-auto">
               <input type="text" className="form-control" placeholder="Subject*" name="subject" />
             </div>
-            <div className="col-8 form-group mx-auto">
+            <div className="col-8 form-group pt-2 mx-auto">
               <textarea className="form-control" id="" cols="30" row="8" placeholder="Your message" name="message"></textarea>
             </div>
             <div id="text"><mark class="red">*</mark> indicates a required field</div>
