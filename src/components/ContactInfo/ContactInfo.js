@@ -10,34 +10,24 @@ class ContactInfo extends Component {
 
           <nav class="col-list">
             <ul>
-              <li>ADDRESS:</li>
-              <li><a href="#">PHONE:</a></li>
-              <li><a href="#">EMAIL</a></li>
+              <li><mark class="blue">ADDRESS:</mark> &nbsp;&nbsp; Anker Engelunds Vej 1 Bygning 101A, 2800 Kgs. Lyngby</li>
+              <li><mark class="blue">PHONE:</mark>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +45 1234 5678</li>
+              <li><mark class="blue">EMAIL:</mark>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hello@Engineersacademy.com</li>
             </ul>
           </nav>
         </span>
 
-        <span class="col">
-
-          <nav class="col-list">
-            <ul>
-              <li><a href="#"> Anker Engelunds Vej 1 Bygning 101A, 2800 Kgs. Lyngby</a></li>
-              <li><a href="#">+45 1234 5678</a></li>
-              <li><a href="#">hello@Engineersacademy.com</a></li>
-            </ul>
-          </nav>
-        </span>
 
         <span class="col">
           <div class="subscribe-form-holder">
-            <h3 class="form-title">Subscribe to our email newsletter</h3>
+            <h3 class="form-title"><mark class="blue">NEWSLETTER:</mark></h3>
             <form action="#" onsubmit="return false" class="subscribe-form">
-              <input type="email" name="email" id="email" class="email subscribe-input" autocomplete="off" placeholder="Your email"></input>
+              <input type="email" name="email" id="email" class="email subscribe-input" autocomplete="off" placeholder="Your email here"></input>
               <button type="submit" class="subscribe-btn">Subscribe</button>
             </form>
           </div>
           <div class="social-media">
-            <h3 class="social-col-title">Follow us</h3>
+            <h3 class="social-col-title"><mark class="blue">SOCIAL:</mark></h3>
             <ul class="social-media-list">
               <li><a href="https://www.facebook.com/Engineers-Academy-100130012657570" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
