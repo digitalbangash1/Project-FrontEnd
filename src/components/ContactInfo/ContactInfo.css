@@ -1,7 +1,7 @@
 :root {
   --footer-bg: #1c2444;
   --color: #f2f3fb;
-  --color-smooth: #9da2ae;
+  --color-smooth: #e0e2e6;
   --input-border: #3a456a;
   --btn-bg-color: #f1f2fc;
   --btn-hover-bg: #d5d9f6;
@@ -119,7 +119,7 @@ footer ul {
 .social-media-list a:hover,
 .social-media-list a:focus {
   color: var(--color);
-  background: #ffffff1a;
+  background: #ffffffc2;
 }
 
 .social-media-list svg {

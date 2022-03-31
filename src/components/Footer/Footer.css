@@ -1,6 +1,8 @@
 .footer{
   padding: 1rem;
-  background-color: rgb(44, 63, 233);
+  background-color: #6d76f7;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
   position: static;
   bottom: 0;
   left: 0;

@@ -15,8 +15,8 @@ export default function Home() {
 <AboutUs/>
 <ReachUs/>
 <ContactUs/>
-<ContactInfo/>
-<Footer/>
+
+
 </div>
   )
   
