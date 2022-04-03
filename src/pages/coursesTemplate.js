@@ -59,7 +59,7 @@ export default function  CoursesTemplate() {
 
                             <textarea
                                 id={"course-description"}
-                                className={"form-field"}
+                                className={"decriptition-field"}
                                 type={"text"}
 
 
