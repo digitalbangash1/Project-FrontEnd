@@ -7,6 +7,8 @@ import Home from './components/Home/Home';
 import Testing from './components/testing';
 import Login from "./components/login/login";
 import CoursesTemplate from "./pages/coursesTemplate";
+import CourseCreate from './components/Courses/CourseCreate';
+import CourseUpdate from './components/Courses/CourseUpdate';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
 
             <Routes>
                 <Route path="/courses" element={<CourseList/>}/>
+                <Route path="/courses/new" element={<CourseCreate/>}/>
+                <Route path="/courses/:courseId/update" element={<CourseUpdate/>}/>
                 <Route path="/courses/:courseId" element={<CourseDetails/>}/>
                 <Route path="/testing" element={<Testing/>}/>
                 <Route path="/coursestemplate" element={<CoursesTemplate/>}/>

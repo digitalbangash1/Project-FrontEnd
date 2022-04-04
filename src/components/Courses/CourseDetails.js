@@ -11,8 +11,8 @@ export default function CourseDetails() {
   const [course, setCourse] = useState(null);
 
   useEffect(() => {
-    const request = getCourse(courseId);
-    request.then(response => {
+    const promise = getCourse(courseId);
+    promise.then(response => {
       const course = response.data;
       setCourse(course);
       console.log(course);
