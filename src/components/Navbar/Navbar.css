@@ -1,5 +1,5 @@
 .NavbarItems{
-    background : linear-gradient(90deg, rgb(110,94,254)0%, rgb(253, 253, 255)100%);
+    background : White;
     height: 80px; 
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
 }
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(5,auto);
+    grid-template-columns: repeat(6,auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;

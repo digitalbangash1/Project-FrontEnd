@@ -23,7 +23,7 @@ footer ul {
 }
 
 .col {
-  flex: 1;
+  position: relative;
 }
 
 .col-title {
@@ -42,20 +42,6 @@ footer ul {
   padding: 0.5em 0;
 }
 
-.subscribe-input {
-  width: auto;
-  flex: 1;
-  background: transparent;
-  border: 0.06em solid var(--input-border);
-  font-size: 1em;
-  font-weight: 500;
-  padding: 0.5em;
-  border-radius: 0.3em;
-  transition: all 0.25s ease 0s;
-  display: inline-block;
-}
-
-
 
 .subscribe-btn {
   background: var(--btn-bg-color);
@@ -64,16 +50,13 @@ footer ul {
   font-weight: 600;
   padding: 0.5em;
   border-radius: 0.3em;
-  transition: all 0.25s ease 0s;
-  display: inline-block;
+  display: block;
   color: white;
   cursor: pointer;
+  opacity: 1;
 }
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background: var(--btn-hover-bg);
-}
+
 
 .form-title,
 .social-col-title {
