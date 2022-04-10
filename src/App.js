@@ -21,7 +21,7 @@ function App() {
                 <Route path="/coursestemplate" element={<CoursesTemplate/>}/>
                 <Route path = "/login" element ={<Login/>} />
                 <Route path="/" element={<Home/>}/>
-
+                
 
             </Routes>
         </div>
