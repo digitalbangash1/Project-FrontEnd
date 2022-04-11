@@ -5,17 +5,17 @@ import backend from "./backend.jpg";
 export default [
   {
     
-    description: "This is the first slider Image of our carousel",
+    description: "02346 Distributed and Parallel Systems",
     urls: Dsystems,
   },
   {
     
-    description: "This is the second slider Image of our carousel",
+    description: "02363 Front end and Web Technology",
     urls: frontend,
   },
   {
     
-    description: "This is the Third slider Image of our carousel",
+    description: "62597 Bckend development, operation and distributed Systems",
     urls: backend,
   },
   

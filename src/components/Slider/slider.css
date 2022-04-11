@@ -1,20 +1,15 @@
-* {
-    box-sizing: border-box;
-    margin: 10% 0;
-    position: static;
-  }
-  
+
   :root {
     --heights: 75vh;
     --widths: 50%;
   }
   
   .slider-container {
-    height: var(--heights);
-    width: var(--widths);
+    height: 350px;
+    width: 30%;
     position: relative;
     margin: auto;
-    overflow: hidden;
+    
   }
   
   .active {
@@ -28,25 +23,24 @@
   .slides {
     height: var(--heights);
     width: var(--widths);
-    position: static;
   }
   
   .slide-image {
     width: 100%;
     height: 100%;
     position: absolute;
-    object-fit: fill;
+    object-fit: contain;
   }
   
   .slide-text {
     width: 100%;
     height: 100%;
-    color: rgb(235, 21, 21);
+    color: rgb(41, 45, 82);
     font-size: 50px;
     position: absolute;
     text-align: center;
-    top: 65%;
-    font-size: 2rem;
+    top: 60%;
+    font-size: 25px;
     z-index: 10;
   }
   
@@ -58,7 +52,7 @@
     position: absolute;
     top: 50%;
     width: auto;
-    padding: 10% 0;
+    padding:  0;
     margin-top: 0;
     font-size: 40px;
     font-weight: lighter;
@@ -99,5 +93,5 @@
   
   .active-dot,
   .dot:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(197, 197, 202, 0.574);
   }

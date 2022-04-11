@@ -15,10 +15,11 @@ export default function Home() {
 <OurMission/>
 <AboutUs/>
 <ReachUs/>
+<Slider/>
 <ContactUs/>
 <ContactInfo/>
 <Footer/>
-<Slider/>
+
 </div>
   )
   
