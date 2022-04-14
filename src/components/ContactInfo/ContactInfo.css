@@ -1,16 +1,15 @@
 :root {
-  --footer-bg: #1c2444;
-  --color: #f2f3fb;
-  --color-smooth: #9da2ae;
   --input-border: #3a456a;
-  --btn-bg-color: #f1f2fc;
-  --btn-hover-bg: #d5d9f6;
-  --btn-color: #1e2641;
+  --btn-bg-color: #f9995d;
+}
+
+mark.blue{
+color:#2a47a9;
+background: none;
 }
 
 footer {
   font-size: 16px;
-  background: var(--footer-bg);
   padding: 2em 4em;
   display: flex;
   align-items: start;
@@ -29,23 +28,12 @@ footer ul {
 
 .col-title {
   font-family: "Merriweather", serif;
-  color: var(--color);
   font-size: 1.1em;
   font-weight: 500;
   padding: 0.5em 0;
 }
 
-.col-list a {
-  color: var(--color-smooth);
-  text-decoration: none;
-  line-height: 1.4;
-  font-weight: 400;
-}
 
-.col-list a:hover,
-.col-list a:focus {
-  text-decoration: underline;
-}
 
 .subscribe-form,
 .social-media {
@@ -65,14 +53,9 @@ footer ul {
   border-radius: 0.3em;
   transition: all 0.25s ease 0s;
   display: inline-block;
-  color: var(--color-smooth);
 }
 
-.subscribe-input:focus {
-  outline: none;
-  border-color: var(--color);
-  color: var(--color);
-}
+
 
 .subscribe-btn {
   background: var(--btn-bg-color);
@@ -83,7 +66,7 @@ footer ul {
   border-radius: 0.3em;
   transition: all 0.25s ease 0s;
   display: inline-block;
-  color: var(--btn-color);
+  color: white;
   cursor: pointer;
 }
 
