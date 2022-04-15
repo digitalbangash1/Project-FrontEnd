@@ -19,3 +19,8 @@ export function updateCourse(id, course){
     const response = axiosInstance.put(`/courses/${id}`, course);
     return response;
 }
+
+export function DeleteCourse(id){
+    const response = axiosInstance.delete(`/courses/${id}`);
+    return response;
+}
