@@ -1,20 +1,17 @@
-import React, { useEffect, useState } from 'react';
-import {
-  useParams,
-} from "react-router-dom";
-import Sidebar1 from '../Sidebar/Sidebar1';
-import { getCourse } from '../../api/coursesApi';
-import YouTube from 'react-youtube';
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import Sidebar1 from "../Sidebar/Sidebar1";
+import { getCourse } from "../../api/coursesApi";
+import YouTube from "react-youtube";
 
 export default function CourseDetails() {
-
   const { courseId } = useParams();
   const [course, setCourse] = useState(null);
   const [player, setPlayer] = useState(null);
 
   useEffect(() => {
     const promise = getCourse(courseId);
-    promise.then(response => {
+    promise.then((response) => {
       const course = response.data;
       setCourse(course);
       console.log(course);
@@ -33,22 +30,25 @@ export default function CourseDetails() {
   const onYouTubeplayerReady = (event) => {
     const player = event.target;
     setPlayer(player);
-  }
+  };
 
   const playVideo = (videoId) => {
     console.log(videoId);
     player.loadVideoById(videoId);
-  }
+  };
 
   return (
     <div>
       <Sidebar1 />
 
-      <div class="p-2">
+      <div className="p-2">
         {course && (
           <div>
-            <div><h1>Welcome to  {course.name}</h1></div>
-            <div ><h2>Course Description : </h2>
+            <div>
+              <h1>Welcome to {course.name}</h1>
+            </div>
+            <div>
+              <h2>Course Description : </h2>
               <br />
               <p>{course.description}</p>
             </div>
@@ -56,9 +56,9 @@ export default function CourseDetails() {
             <br />
             <div>
               <h2>Videos :</h2>
-              <div class="d-flex">
+              <div className="d-flex">
                 <div>
-                  <table class="table table-striped">
+                  <table className="table table-striped">
                     <thead>
                       <tr>
                         <th>Name</th>
@@ -66,21 +66,26 @@ export default function CourseDetails() {
                       </tr>
                     </thead>
                     <tbody>
-                      {
-                        course.videos.map((video, index) => {
-                          return (
-                            <tr key={index}>
-                              <td>
-                                <button type='button' class="btn btn-link" onClick={() => playVideo(video.videoId)}>{video.title}</button>
-                              </td>
-                              <td>{video.description}</td>
-                            </tr>)
-                        })
-                      }
+                      {course.videos?.map((video, index) => {
+                        return (
+                          <tr key={index}>
+                            <td>
+                              <button
+                                type="button"
+                                className="btn btn-link"
+                                onClick={() => playVideo(video.videoId)}
+                              >
+                                {video.title}
+                              </button>
+                            </td>
+                            <td>{video.description}</td>
+                          </tr>
+                        );
+                      })}
                     </tbody>
                   </table>
                 </div>
-                <div class="ms-auto">
+                <div className="ms-auto">
                   <YouTube opts={opts} onReady={onYouTubeplayerReady} />
                 </div>
               </div>
@@ -89,7 +94,7 @@ export default function CourseDetails() {
 
             <div>
               <h2> Articles :</h2>
-              <table class="table table-striped">
+              <table className="table table-striped">
                 <thead>
                   <tr>
                     <th>Name</th>
@@ -97,23 +102,26 @@ export default function CourseDetails() {
                   </tr>
                 </thead>
                 <tbody>
-                  {
-                    course.articles.map((article, index) => {
-                      return (
-                        <tr key={index}>
-                          <td>
-                            <a target="_blank" href={article.link}>{article.title}</a>
-                          </td>
-                          <td>{article.description}</td>
-                        </tr>)
-                    })
-                  }
+                  {course.articles?.map((article, index) => {
+                    return (
+                      <tr key={index}>
+                        <td>
+                          <a target="_blank" href={article.link}>
+                            {article.title}
+                          </a>
+                        </td>
+                        <td>{article.description}</td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
             <br />
-            <div> <h2>Documents :</h2> </div>
-
+            <div>
+              {" "}
+              <h2>Documents :</h2>{" "}
+            </div>
           </div>
         )}
       </div>
