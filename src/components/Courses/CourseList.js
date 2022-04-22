@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { getCourses } from '../../api/coursesApi';
+import { DeleteCourse,getCourses } from '../../api/coursesApi';
 
 export default function CourseList() {
 
@@ -18,6 +18,26 @@ export default function CourseList() {
     const addNewCourse = () => {
         navigate('/courses/new')
     };
+
+
+    function DeleteCour(id){
+        if(window.confirm(' Are you sure? you are about to delete the course with Id number: '+ id))
+        {
+            DeleteCourse(id);
+            window.location.reload(false);
+            /*  fetch(`https://localhost:7109/Courses/${id}`,{
+                method: 'DELETE',
+                headers:{'accept': '',
+                'Content-Type': 'application/json',
+                } 
+                
+            })*/
+        }
+    };
+    
+
+    
+
 
     return (
         <div class="p-2">
@@ -44,7 +64,7 @@ export default function CourseList() {
                                     <td>{course.description}</td>
                                     <td>
                                         <Link to={`/courses/${course.id}/update`}>Update</Link>
-                                        <Link style={{ marginLeft: 10 }} to={`/courses/${course.id}/delete`}>Delete</Link>
+                                        <button style={{ marginLeft: 10, variant:"danger" }}  onClick={()=>DeleteCour(course.id)} >Delete</button>
                                     </td>
                                 </tr>)
                         })
@@ -54,3 +74,6 @@ export default function CourseList() {
         </div>
     );
 }
+
+
+

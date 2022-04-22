@@ -1,9 +1,8 @@
 import React, { Component, useEffect } from "react";
 import { useState } from "react";
 import { updateCourse, getCourse } from '../../api/coursesApi';
-import {
-    useParams
-} from "react-router-dom";
+import { useParams} from "react-router-dom";
+import CourseList from "./CourseList";
 
 export default function CourseUpdate() {
 
