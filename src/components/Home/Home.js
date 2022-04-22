@@ -6,6 +6,7 @@ import ReachUs from '../ReachUs/ReachUs'
 import ContactInfo from '../ContactInfo/ContactInfo'
 import Footer from '../Footer/Footer';
 import ContactUs from '../ContactUs/ContactUs';
+import Slider from '../Slider/Slider';
 
 
 export default function Home() {
@@ -14,9 +15,11 @@ export default function Home() {
 <OurMission/>
 <AboutUs/>
 <ReachUs/>
+<Slider/>
 <ContactUs/>
 <ContactInfo/>
 <Footer/>
+
 </div>
   )
   
