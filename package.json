@@ -21,8 +21,14 @@
     "react-redux": "^7.2.8",
     "react-responsive-sidebar": "^0.1.16",
     "react-router-dom": "^6.2.2",
+<<<<<<< HEAD
     "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.7",
+=======
+    "react-scripts": "^5.0.0",
+    "react-scroll": "^1.8.6",
+    "react-youtube": "^8.2.1",
+>>>>>>> creatingtemplate1
     "redux": "^4.1.2",
     "router-dom": "^2.2.9",
     "styled-components": "^5.3.5",

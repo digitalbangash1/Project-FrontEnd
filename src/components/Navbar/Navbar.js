@@ -16,11 +16,14 @@ class Navbar extends Component {
                     <i className={this.state.clicked ? 'fas fa times' : 'fas fa-bars'}></i>
 
                 </div>
+
+                
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                <Link to={item.url}>{item.title}</Link>
+                                <a className={item.cName} href = {item.url}>{item.title}</a>
+                               {/*  <Link to={item.url}>{item.title}</Link> */}
                             </li>)
                     })}
 
