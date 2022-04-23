@@ -8,35 +8,24 @@
     color: black;
 }
 
-.navbar-logo{
-    color:#fff;
-    justify-self:start ;
-    margin-left: 20px;
-    cursor: pointer;
-}
-.fab fa-react{
-    margin-left: 0.5rem;
-    font-size: 1.6rem;
-}
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(5,auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 15px;
     list-style: none;
     text-align: center;
     width: 75vw;
     justify-content: end;
-    margin-right: 10rem;
+    margin-right: 2rem;
     color: rgb(190, 16, 16);
 }
-.nav-links{
-    color: rgb(9, 204, 58);
-    text-decoration: none;
-    padding:0.5rem 1rem ;
-}
 
+
+/* Navbar routing links */
 .nav-links{
-    color:white
+    color:black;
+    text-decoration: none;
+    padding:0.5rem 0.9rem ;
 }
 
 
