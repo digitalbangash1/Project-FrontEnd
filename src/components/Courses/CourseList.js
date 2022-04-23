@@ -58,13 +58,13 @@ export default function CourseList() {
                         courses.map((course, index) => {
                             return (
                                 <tr key={index}>
-                                    <td>
+                                    <td >
                                         <Link to={`/courses/${course.id}`}>{course.name}</Link>
                                     </td>
                                     <td>{course.description}</td>
-                                    <td>
-                                        <Link to={`/courses/${course.id}/update`}>Update</Link>
-                                        <button style={{ marginLeft: 10, variant:"danger" }}  onClick={()=>DeleteCour(course.id)} >Delete</button>
+                                    <td className="col-1 form-group pt-3 mx-auto">
+                                        <Link to={`/courses/${course.id}/update`} >Update</Link>
+                                        <button  className="btn btn-danger" onClick={()=>DeleteCour(course.id)} >Delete</button>
                                     </td>
                                 </tr>)
                         })
