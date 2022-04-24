@@ -1,4 +1,13 @@
 
+/* General top navbar layout */
+.NavbarItems{
+    background : White;
+    height: 80px; 
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.2rem;
+}
 
 .nav-menu{
     display: grid;
@@ -20,18 +29,17 @@
     padding:0.5rem 0.9rem ;
 }
 
+.nav-links:login {
+color: orange;
+}
+
 
 .nav-links:hover{
     background-color: #564f71;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
-.fa-bars{
-    color: white;
-}
+
 .nav-links-mobile{
     display: none;
-}
-.menu-icon{
-    display:none;
 }
