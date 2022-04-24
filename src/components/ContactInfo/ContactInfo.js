@@ -1,7 +1,21 @@
 import React, { Component } from "react";
+import emailjs from 'emailjs-com';
 import './ContactInfo.css'
 
 class ContactInfo extends Component {
+
+  emailSubscriptions(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('service_jk9ls5i', 'template_wdeh2pc', e.target, '3v-MlhA1NCWoz2z6c')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    e.target.reset();
+  }
+
   render() {
     return (
       <footer class="footer" id="footer">
@@ -12,20 +26,22 @@ class ContactInfo extends Component {
             <ul>
               <li><mark class="blue">ADDRESS:</mark> &nbsp;&nbsp; Anker Engelunds Vej 1 Bygning 101A, 2800 Kgs. Lyngby</li>
               <li><mark class="blue">PHONE:</mark>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +45 1234 5678</li>
-              <li><mark class="blue">EMAIL:</mark>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; hello@Engineersacademy.com</li>
+              <li><mark class="blue">EMAIL:</mark>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; engineersacademy87@gmail.com</li>
             </ul>
           </nav>
         </span>
 
 
-        <span class="col">
-          <div class="subscribe-form-holder">
-            <h3 class="form-title"><mark class="blue">NEWSLETTER:</mark></h3>
-            <form action="#" onsubmit="return false" class="subscribe-form">
-              <input type="email" name="email" id="email" class="email subscribe-input" autocomplete="off" placeholder="Your email here"></input>
+        <span class="col-list">
+          <div class="Newsletter-subscriber">
+            <h3 class="form-title"><mark class="blue">SIGN UP TO OUR NEWSLETTER:</mark></h3>
+            <form className="subscribe-to-newsletter"
+              onsubmit={this.emailSubscriptions} class="subscribe-form">
+              <input type="email" name="email" placeholder="Enter your email here..." size={20}/>
               <button type="submit" class="subscribe-btn">Subscribe</button>
             </form>
           </div>
+
           <div class="social-media">
             <h3 class="social-col-title"><mark class="blue">SOCIAL:</mark></h3>
             <ul class="social-media-list">
@@ -48,5 +64,6 @@ class ContactInfo extends Component {
       </footer>
     )
   }
+
 }
 export default ContactInfo;
