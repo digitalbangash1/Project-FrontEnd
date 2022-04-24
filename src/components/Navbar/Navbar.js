@@ -13,7 +13,7 @@ class Navbar extends Component {
         return (
 
             <nav className="NavbarItems">
-            
+            <img className="NavLogo" src={logo}></img>
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return (
