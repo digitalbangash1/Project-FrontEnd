@@ -3,16 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-<<<<<<< HEAD
-    "@emailjs/browser": "^3.4.0",
-    "@material-ui/core": "^4.12.3",
-    "@testing-library/react": "^12.1.4",
-=======
     "@emailjs/browser": "^3.6.2",
     "@material-ui/core": "^4.12.4",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.5",
->>>>>>> master
     "@testing-library/user-event": "^13.5.0",
     "axios": "^0.26.1",
     "bootstrap": "^5.1.3",
