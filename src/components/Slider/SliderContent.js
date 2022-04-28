@@ -1,15 +1,14 @@
 import React from "react";
 
+
 function SliderContent({ activeIndex, sliderImage }) {
   return (
-    <section>
+    <section className="section1">
       {sliderImage.map((slide, index) => (
-        <div
+        <div 
           key={index}
-          className={index === activeIndex ? "slides active" : "inactive"}
-        >
+          className={index === activeIndex ? "slidesactive" : "inactive"} >
           <img className="slide-image" src={slide.urls} alt="" />
-          <h2 className="slide-title">{slide.title}</h2>
           <h3 className="slide-text">{slide.description}</h3>
         </div>
       ))}
