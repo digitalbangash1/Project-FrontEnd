@@ -41,7 +41,7 @@ export default function ContactUs() {
             </div>
             <div id="text"><mark class="red">*</mark> indicates a required field</div>
             <div className="col-8 pt-3 mx-auto">
-              <input type="submit" className="btn btn-info" id="MsgBtn" value="Send Message"></input>
+              <input type="submit" className="btn btn-info" id="MsgBtn" value="Submit"></input>
             </div>
           </div>
         </form>

@@ -27,13 +27,9 @@
     {
         title:'Login',
         url: '/login',
-        cName: 'nav-links'        
+        cName: 'login_button'        
     },
-    {
-        title:'Testing',
-        url: '/testing',
-        cName: 'nav-links'        
-    },
+
 
     
 ]

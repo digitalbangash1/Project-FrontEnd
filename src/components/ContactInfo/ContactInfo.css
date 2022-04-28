@@ -8,7 +8,7 @@ color:#2a47a9;
 background: none;
 }
 
-footer {
+.ContactInfo {
   font-size: 16px;
   padding: 2em 4em;
   display: flex;
@@ -16,9 +16,10 @@ footer {
   justify-content: center;
   gap: 1em;
   font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
 }
 
-footer ul {
+.ContactInfo ul {
   list-style: none;
 }
 
@@ -35,10 +36,14 @@ footer ul {
 
 
 
-.subscribe-form,
+
+input{
+  width: 400px;
+}
+
 .social-media {
   display: flex;
-  gap: 0.5em;
+  gap: 0.3em;
   padding: 0.5em 0;
 }
 
@@ -59,7 +64,7 @@ footer ul {
 
 .subscribe-btn {
   background: var(--btn-bg-color);
-  border: none;
+  border: black;
   font-size: 1em;
   font-weight: 600;
   padding: 0.5em;
@@ -68,21 +73,21 @@ footer ul {
   display: inline-block;
   color: white;
   cursor: pointer;
+  margin-left: 0.5rem;
 }
 
 .subscribe-btn:hover{
+  color: black;
 }
 
-.subscribe-btn:hover,
-.subscribe-btn:focus {
-  background: var(--btn-hover-bg);
-}
+
 
 .form-title,
 .social-col-title {
   font-size: 1em;
   color: var(--color);
   font-weight: 500;
+  font-weight: bold;
 }
 
 .social-media {
@@ -91,7 +96,9 @@ footer ul {
 
 .social-media-list {
   display: flex;
-  gap: 0.5rem;
+  gap: 2rem;
+  margin-left: -2.1rem;
+  margin-top: -0.7rem;
 }
 
 .social-media-list a {
@@ -102,23 +109,11 @@ footer ul {
   transition: all 0.25s ease 0s;
 }
 
-.social-media-list a:hover,
-.social-media-list a:focus {
-  color: var(--color);
-  background: #ffffff1a;
-}
-
 .social-media-list svg {
   width: 1.5em;
   height: 1.5em;
   transition: all 0.25s ease 0s;
 }
 
-@media screen and (max-width: 750px) {
-  footer {
-    padding: 2em;
-    flex-direction: column;
-  }
-}
 
 

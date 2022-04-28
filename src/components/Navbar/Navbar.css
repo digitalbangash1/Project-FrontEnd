@@ -2,44 +2,69 @@
 /* General top navbar layout */
 .NavbarItems{
     background : White;
-    height: 80px; 
+    height: 60px; 
     display: flex;
-    justify-content: center;
     align-items:center;
-    font-size: 1.2rem;
+    font-size: 20px;
 }
 
+/* Engineers Academy logo */
+.NavLogo {
+    height: 70px;
+    width: 340px;
+    margin-left: 1rem;
+}
+
+/* All of the top routing menu */
 .nav-menu{
     display: grid;
-    grid-template-columns: repeat(6,auto);
-    grid-gap: 10px;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 40px;
     list-style: none;
     text-align: center;
     width: 75vw;
     justify-content: end;
-    margin-right: 2rem;
+    margin-right: 1rem;
+    margin-top: 1.7rem;
     color: rgb(190, 16, 16);
 }
-
 
 /* Navbar routing links */
 .nav-links{
     color:black;
     text-decoration: none;
-    padding:0.5rem 0.9rem ;
+    padding:0.5rem 0.9rem;
 }
 
-.nav-links:login {
-color: orange;
+/* Login button in top navbar */
+.login_button{
+    text-decoration: none;
+    background-color: #f9995d;
+    border: none;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    margin-top: -0.9rem;
+}
+
+/* Behaviour when hovering mouse over the login button in top navbar */
+.login_button:hover{
+    color: black;
 }
 
 
+/* Behaviour when hovering mouse over the menuitems in top navbar */
 .nav-links:hover{
-    background-color: #564f71;
+    background-color: #acabb0;
+    color: white;
     border-radius: 4px;
     transition: all 0.2s ease-out;
+    border-radius: 12px;
+
 }
 
-.nav-links-mobile{
-    display: none;
-}
+

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 import './ContactInfo.css'
 
 class ContactInfo extends Component {
@@ -18,7 +18,7 @@ class ContactInfo extends Component {
 
   render() {
     return (
-      <footer class="footer" id="footer">
+      <footer class="ContactInfo" id="Form">
 
         <span class="col">
 
