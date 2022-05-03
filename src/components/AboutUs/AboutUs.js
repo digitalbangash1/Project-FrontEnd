@@ -5,7 +5,7 @@ import  "./AboutUs.css";
 
 class AboutUs extends Component {
     render(){
-        return <div className="AboutUs" id="AboutUsID">
+        return <div className="AboutUs" id="aboutus">
             <div>
             <figure class='position-relative'>
                 < img className="PicOfUs" src={PicOfUS} alt =""></img>
