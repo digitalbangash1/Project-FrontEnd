@@ -15,7 +15,7 @@ function Login() {
     );
 }
 
-function AppWithstore() {
+function loginCheck() {
     return (
         <AuthProvider>
             <Login />
@@ -25,4 +25,4 @@ function AppWithstore() {
 
 
 //---
-export default AppWithstore;
+export default loginCheck;

@@ -2,9 +2,9 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import { Form } from "react-bootstrap";
 import "./login.css";
-import { Component, useContext } from "react";
-import { useEffect, useState } from 'react';
-import AuthProvider, { AuthContext } from "./AuthContext";
+import { useContext } from "react";
+import { useState } from 'react';
+import  { AuthContext } from "./AuthContext";
 import Button from "react-bootstrap/Button";
 import loginPic1 from "./loginPic1.png";
 
@@ -17,7 +17,7 @@ export default function Loginside() {
     function login(e) {
         e.preventDefault();
         //send Api request to validate data and git token
-        if (password == 'admins193472' &&( email == 'gr10@engineer.academy')) {
+        if (password === 'admins193472' &&( email === 'gr10@engineer.academy')) {
             const token = "abc"
             localStorage.setItem('token', token)
             localStorage.setItem('email', email)
@@ -68,3 +68,4 @@ export default function Loginside() {
     );
 }
 //--
+
