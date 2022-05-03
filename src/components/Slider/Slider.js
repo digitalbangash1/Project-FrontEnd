@@ -18,6 +18,7 @@ function Slider(_props) {
   
 
   return (
+    <div className="theBigdiv">
     <div className="slider-container">
       <SliderContent activeIndex={activeIndex} sliderImage={sliderImage} />
       <Arrows
@@ -33,6 +34,7 @@ function Slider(_props) {
         sliderImage={sliderImage}
         onclick={(activeIndex) => setActiveIndex(activeIndex)}
       />
+    </div>
     </div>
   );
 }
