@@ -18,7 +18,7 @@ export default function ContactUs() {
       e.target.reset();
   }
 
-  return ( <div classname= "ContactUs" id="contactus">
+  return ( <div className= "ContactUs" id="contactus">
       <div>
         <h3 id="header">Do you have any suggestions?</h3>
         <div id="text">We are ready to work on your suggestions of any complexity, whether it’s about the courses stated above or you want us to list new courses.</div>

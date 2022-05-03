@@ -1,5 +1,5 @@
 #ContactForm{
-    background-color:#f6f8f7;
+    background-color:#f8f7f6;
     align-items:center;
     font-weight: bold;
 }
@@ -30,4 +30,8 @@ margin-bottom: 1rem;
 width: 850px;
 align-items: center;
 text-align: center;
+}
+
+.ContactUs{
+    background-color: antiquewhite;
 }
