@@ -20,7 +20,7 @@ export default function ContactUs() {
 
   return ( <div classname= "ContactUs" id="ContactForm">
       <div>
-        <h3 id="text">Do you have any suggestions?</h3>
+        <h3 id="header">Do you have any suggestions?</h3>
         <div id="text">We are ready to work on your suggestions of any complexity, whether it’s about the courses stated above or you want us to list new courses.</div>
       </div>
       <div className="container">
