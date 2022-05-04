@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { DeleteCourse,getCourses } from '../../api/coursesApi';
+import { DeleteCourse, getCourses } from '../../api/coursesApi';
 
 export default function CourseList() {
 
@@ -20,9 +20,8 @@ export default function CourseList() {
     };
 
 
-    function DeleteCour(id){
-        if(window.confirm(' Are you sure? you are about to delete the course with Id number: '+ id))
-        {
+    function DeleteCour(id) {
+        if (window.confirm(' Are you sure? you are about to delete the course with Id number: ' + id)) {
             DeleteCourse(id);
             window.location.reload(false);
             /*  fetch(`https://localhost:7109/Courses/${id}`,{
@@ -34,9 +33,9 @@ export default function CourseList() {
             })*/
         }
     };
-    
 
-    
+
+
 
 
     return (
@@ -64,7 +63,7 @@ export default function CourseList() {
                                     <td>{course.description}</td>
                                     <td className="col-1 form-group pt-3 mx-auto">
                                         <Link to={`/courses/${course.id}/update`} >Update</Link>
-                                        <button  className="btn btn-danger" onClick={()=>DeleteCour(course.id)} >Delete</button>
+                                        <button className="btn btn-danger mr-2" onClick={() => DeleteCour(course.id)} >Delete</button>
                                     </td>
                                 </tr>)
                         })

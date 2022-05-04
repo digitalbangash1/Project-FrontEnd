@@ -4,7 +4,7 @@ import { Form } from "react-bootstrap";
 import "./login.css";
 import { useContext } from "react";
 import { useState } from 'react';
-import  { AuthContext } from "./AuthContext";
+import { AuthContext } from "./AuthContext";
 import Button from "react-bootstrap/Button";
 import loginPic1 from "./loginPic1.png";
 
@@ -17,14 +17,14 @@ export default function Loginside() {
     function login(e) {
         e.preventDefault();
         //send Api request to validate data and git token
-        if (password === 'admins193472' &&( email === 'gr10@engineer.academy')) {
+        if (password === 'admins193472' && (email === 'gr10@engineer.academy')) {
             const token = "abc"
             localStorage.setItem('token', token)
             localStorage.setItem('email', email)
             authContext.setAuth({ token, email });
         } else {
             alert('wrong details batata')
-        }    
+        }
     }
 
 
@@ -52,9 +52,9 @@ export default function Loginside() {
                         placeholder="password" autoComplete="current-password"
                         value={password} onChange={e => setPassword(e.target.value)} />
 
-                    <Form.Group controlId="rememberMe"/>
-                    <Form.Check label="Remember me "  className="d-flex justify-content-center"
-                    type="checkbox"  id="rememberMe"/>
+                    <Form.Group controlId="rememberMe" />
+                    <Form.Check label="Remember me " className="d-flex justify-content-center"
+                        type="checkbox" id="rememberMe" />
 
                     <Button className="text-center mt-4" variant="variant" size="sm"
                         onClick={login}>

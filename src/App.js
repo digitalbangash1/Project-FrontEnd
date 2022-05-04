@@ -15,7 +15,6 @@ function App() {
     return (
         <div className="App">
             <Navbar/>
-
             <Routes>
                 <Route exact path="/about" component={AboutUs} />
                 <Route path="/courses" element={<CourseView/>}/>
@@ -25,8 +24,6 @@ function App() {
                 <Route path="/coursestemplate" element={<CoursesTemplate/>}/>
                 <Route path = "/login" element ={<Login/>} />
                 <Route path="/" element={<Home/>}/>
-                
-
             </Routes>
         </div>
     );

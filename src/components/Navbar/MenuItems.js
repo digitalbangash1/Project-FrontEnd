@@ -8,7 +8,7 @@
     ,
     {
         title:'About Us',
-        url: '#aboutus',
+        url: './#aboutus',
         cName: 'nav-links',
     
     },
@@ -20,7 +20,7 @@
 
     {
         title:'Contact Us',
-        url: '#contactus',
+        url: './#contactus',
         cName: 'nav-links'
         
     },

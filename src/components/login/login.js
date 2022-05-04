@@ -10,7 +10,7 @@ function Login() {
     return (
         <div>
             <Header />
-            {authContext.auth.email ? <CourseList/>: <Loginside />}
+            {authContext.auth.email ? <CourseList /> : <Loginside />}
         </div>
     );
 }

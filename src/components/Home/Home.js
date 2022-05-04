@@ -10,17 +10,17 @@ import Slider from '../Slider/Slider';
 
 
 export default function Home() {
-  return( <div>
-<FirstPic/>
-<OurMission/>
-<AboutUs/>
-<ReachUs/>
-<Slider/>
-<ContactUs/>
-<ContactInfo/>
-<Footer/>
+  return (<div>
+    <FirstPic />
+    <OurMission />
+    <AboutUs />
+    <ReachUs />
+    <Slider />
+    <ContactUs />
+    <ContactInfo />
+    <Footer />
 
-</div>
+  </div>
   )
-  
+
 }

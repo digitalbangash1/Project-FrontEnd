@@ -37,7 +37,7 @@ class ContactInfo extends Component {
             <h3 class="form-title"><mark class="blue">SIGN UP TO OUR NEWSLETTER:</mark></h3>
             <form className="subscribe-to-newsletter"
               onsubmit={this.emailSubscriptions} class="subscribe-form">
-              <input type="email" name="email" placeholder="Enter your email here..." size={20}/>
+              <input type="email" name="email" placeholder="Enter your email here..." size={20} />
               <button type="submit" class="subscribe-btn">Subscribe</button>
             </form>
           </div>

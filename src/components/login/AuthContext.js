@@ -14,7 +14,7 @@ export default function AuthProvider(props) {
                 token,
                 email,
             });
-            
+
         }
     }, []);
 
