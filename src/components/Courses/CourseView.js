@@ -1,14 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import axios from 'axios';
+import { getCourses } from '../../api/coursesApi';
 
 export default function CourseList() {
 
-    const url = "https://localhost:7109/courses";
     const [courses, setCourses] = useState([]); //hook
 
     useEffect(() => {
-        const request = axios.get(url);
+        const request = getCourses();
         request.then(response => {
             const courses = response.data;
             setCourses(courses);
