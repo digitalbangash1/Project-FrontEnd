@@ -68,7 +68,7 @@ export default function CourseUpdate() {
                 </div>
                 <div class="mb-3">
                     <label>Description</label>
-                    <input type="text" class="form-control w-25"
+                    <textarea type="text" class="form-control w-25"
                         value={values.description}
                         onChange={handleDescriptionChange}
                     />
