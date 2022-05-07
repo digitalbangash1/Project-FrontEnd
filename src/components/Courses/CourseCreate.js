@@ -67,7 +67,7 @@ export default function CourseCreate() {
                 </div>
 
                 <button type="submit" class="btn btn-primary" onClick={event => window.location.href = '/login'}>Create</button>
-                //<button type="submit" class="btn btn-primary">Create</button>
+                {/* //<button type="submit" class="btn btn-primary">Create</button> */}
             </form>
 
         </div>
