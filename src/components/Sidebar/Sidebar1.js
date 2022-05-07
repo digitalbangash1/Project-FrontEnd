@@ -7,6 +7,10 @@ import { SidebarData } from './SidebarData';
 import SubMenu from './SubMenu';
 import { IconContext } from 'react-icons/lib';
 
+/* 
+The inspiration for this code has been taken from styled components and modified later to meet our requirements
+*/
+
 const Nav = styled.div`
   background: rgb(110,94,254);
   height: 80px;

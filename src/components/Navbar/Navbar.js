@@ -3,6 +3,11 @@ import { MenuItems } from "./MenuItems"
 import './Navbar.css'
 import logo from './Logo.png';
 
+/* 
+Taken inspiration from a youtube and modified to our requirements
+https://www.youtube.com/watch?v=T2MhVxJxsL0&ab_channel=BrianDesign 
+*/
+
 
 class Navbar extends Component {
     state = { clicked: false }
