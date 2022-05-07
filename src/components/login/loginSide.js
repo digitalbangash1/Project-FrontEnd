@@ -17,13 +17,13 @@ export default function Loginside() {
     function login(e) {
         e.preventDefault();
         //send Api request to validate data and git token
-        if (password === 'admins193472' && (email === 'gr10@engineer.academy')) {
+        if (password === 'admins123456' && (email === 'gr10@engineer.academy')) {
             const token = "abc"
             localStorage.setItem('token', token)
             localStorage.setItem('email', email)
             authContext.setAuth({ token, email });
         } else {
-            alert('wrong details batata')
+            alert('wrong details, please try again')
         }
     }
 

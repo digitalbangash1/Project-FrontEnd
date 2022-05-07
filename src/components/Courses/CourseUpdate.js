@@ -67,12 +67,13 @@ export default function CourseUpdate() {
                 </div>
                 <div class="mb-3">
                     <label>Description</label>
-                    <input type="text" class="form-control w-25"
+                    <textarea type="text" class="form-control w-25"
                         value={values.description}
                         onChange={handleDescriptionChange}
                     />
                 </div>
-                <button type="submit" class="btn btn-primary">Update</button>
+                {/* <button type="submit" class="btn btn-primary">Update</button> */}
+                <button type="submit" class="btn btn-primary" onClick={event =>  window.location.href='/login'}>Update</button>
             </form>
 
         </div>
