@@ -1,6 +1,7 @@
 import './ContactUs.css'
 import emailjs from "emailjs-com";
 
+/* Emails JS function er modificeret ud fra https://github.com/Michaeldremy/EmailJs-Youtube-Tutorial */
 
 export default function ContactUs() {
 
