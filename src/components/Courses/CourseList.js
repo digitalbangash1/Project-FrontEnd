@@ -36,7 +36,9 @@ export default function CourseList() {
 
 
 
-
+ /* Bootstraps styling has been used 
+ 
+  */
 
     return (
         <div class="p-2">

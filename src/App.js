@@ -9,6 +9,7 @@ import CoursesTemplate from "./pages/coursesTemplate";
 import CourseCreate from './components/Courses/CourseCreate';
 import CourseUpdate from './components/Courses/CourseUpdate';
 import AboutUs from './components/AboutUs/AboutUs';
+import NoPage from './components/NoPage';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/coursestemplate" element={<CoursesTemplate/>}/>
                 <Route path = "/login" element ={<Login/>} />
                 <Route path="/" element={<Home/>}/>
+                <Route path="/*" element={<NoPage/>}/>
             </Routes>
         </div>
     );

@@ -23,7 +23,7 @@ export default function Loginside() {
             localStorage.setItem('email', email)
             authContext.setAuth({ token, email });
         } else {
-            alert('wrong details, please try again')
+            alert('wrong details, please try igen :(')
         }
     }
 

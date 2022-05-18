@@ -2,6 +2,7 @@ import React, { Component, useEffect } from "react";
 import { useState } from "react";
 import { updateCourse, getCourse } from '../../api/coursesApi';
 import { useParams } from "react-router-dom";
+import login from "./CourseList"
 
 export default function CourseUpdate() {
 
@@ -72,7 +73,6 @@ export default function CourseUpdate() {
                         onChange={handleDescriptionChange}
                     />
                 </div>
-                {/* <button type="submit" class="btn btn-primary">Update</button> */}
                 <button type="submit" class="btn btn-primary" onClick={event =>  window.location.href='/login'}>Update</button>
             </form>
 

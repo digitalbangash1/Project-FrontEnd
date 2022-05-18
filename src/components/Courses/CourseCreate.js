@@ -65,9 +65,7 @@ export default function CourseCreate() {
                         onChange={handleDescriptionChange}
                     />
                 </div>
-
-                <button type="submit" class="btn btn-primary" onClick={event => window.location.href = '/login'}>Create</button>
-                {/* //<button type="submit" class="btn btn-primary">Create</button> */}
+                <button type="submit" class="btn btn-primary" onClick={event =>  window.location.href='/login'}>Create</button>
             </form>
 
         </div>

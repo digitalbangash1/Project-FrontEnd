@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import emailjs from "emailjs-com";
 import './ContactInfo.css'
 
+/* Emails JS function er modificeret ud fra https://github.com/Michaeldremy/EmailJs-Youtube-Tutorial */
 class ContactInfo extends Component {
 
   emailSubscriptions(e) {
